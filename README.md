@@ -1,39 +1,33 @@
-# Comparador de Idade em Java
+# Calculadora de Área de Retângulo em Java
 
-Este projeto é um programa simples em Java que solicita ao usuário o nome e a idade de duas pessoas e calcula a diferença de idade entre elas.
+Este projeto é um programa simples em Java que solicita ao usuário a base e a altura de um retângulo e calcula sua área.
 
 ## 📋 Funcionalidades
-- Solicita o nome e a idade da primeira pessoa.
-- Solicita o nome e a idade da segunda pessoa.
-- Calcula e exibe a diferença de idade entre as duas pessoas.
+- Solicita a base do retângulo.
+- Solicita a altura do retângulo.
+- Calcula e exibe a área do retângulo.
 
 ## 🖥️ Exemplo de uso
-Digite aqui o nome da primeira pessoa:
+Indique qual a base do retangulo:
 
-Ana
+10
 
-Digite aqui o idade da primeira pessoa:
+Indique qual a altura do retangulo:
 
-30
+5
 
-Digite aqui o nome da segunda pessoa:
-
-Carlos
-
-Digite aqui a idade da segunda pessoa:
-
-25
-
-Essa é a diferença de idade entre Ana e Carlos: 5 ano(s)
+A area deste retangulo é: 50
 
 ## 📂 Estrutura do código
 - Scanner é utilizado para capturar entradas do usuário.
 - System.out.println exibe mensagens no console.
-- System.out.printf formata a saída final com os nomes e a diferença de idade.
-- O comando scanner.nextLine() é usado para limpar o buffer após a leitura de números.
+- System.out.printf formata a saída final mostrando a área calculada.
+- A área é calculada pela fórmula:
+Área = base * altura
 
 ## 🔧 Requisitos
 - Java 11 ou superior.
 - Console/terminal para execução.
 
 Feito para fins de aprendizado e prática de entrada/saída em Java.
+
